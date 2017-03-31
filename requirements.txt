@@ -1,0 +1,5 @@
+requests
+pydbus
+ptyprocess
+pexpect
+python-magic
