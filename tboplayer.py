@@ -482,7 +482,7 @@ from random import randint
 from math import log10
 from getpass import getuser
 from Tkinter import *
-from ttk import ( Progressbar, Style, Sizegrip )
+from ttk import ( Progressbar, Style, Sizegrip ) # tkinter.ttk in python3
 from gtk.gdk import ( screen_width, screen_height )
 from magic import from_file
 import Tkinter as tk
