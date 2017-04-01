@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 
-from __future__ import print_function
+from setuptools import setup
+from tboplayer import get_install_params
 
 
 def main():
-    print('This is a dumb file for tox and circle')
+    setup(**get_install_params())
 
 
 if __name__ == '__main__':
